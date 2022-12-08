@@ -615,10 +615,16 @@ line-height: 2.5;
     
     .header {
         padding: 2rem;
-        .navbar {
+        .navbar{
             position: absolute;
-            top: 99%; left: 0; right: 0;
+            top:99%; left:0; right:0;
             background: $blue;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+            &.active{
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            }
+        
             ul li {
                 width: 100%;
                 ul {
