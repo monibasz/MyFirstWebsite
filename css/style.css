@@ -320,6 +320,12 @@ section {
       margin: 1rem 0;
       border-radius: .5rem;
       background: #fff; }
+    .contact .input-group form .btn {
+      background: #e9edfb;
+      color: #003638; }
+      .contact .input-group form .btn:hover {
+        color: #fff;
+        background: #003638; }
     .contact .input-group form textarea {
       height: 15rem;
       resize: none; }
