@@ -1,7 +1,7 @@
 let navbar = document.querySelector ('.header .navbar');
 
 document.querySelector('#menu-btn').onclick = () =>{
-    navbar.classList.toogle('active');
+    navbar.classList.toggle('active');
 }
 
 window.onscroll =() =>{
