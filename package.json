@@ -1,0 +1,15 @@
+{
+  "name": "finalproject1",
+  "version": "1.0.0",
+  "description": "this is a developer nation website.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "Moniba",
+  "license": "ISC",
+  "dependencies": {
+    "node-modules": "^1.0.1",
+    "node-sass": "^8.0.0"
+  }
+}
