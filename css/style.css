@@ -21,13 +21,13 @@ section {
   display: inline-block;
   margin-top: 1rem;
   padding: 1rem 3rem;
-  background: #003638;
-  color: white;
+  background: #e9edfb;
+  color: #003638;
   cursor: pointer;
   border-radius: .5rem;
   font-size: 1.7rem; }
   .btn:hover {
-    color: #fa1d86;
+    color: #fff;
     background: #003638; }
 
 .heading h3 {
