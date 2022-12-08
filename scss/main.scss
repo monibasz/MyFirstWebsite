@@ -43,15 +43,15 @@ section {
     display: inline-block;
     margin-top: 1rem;
     padding: 1rem 3rem;
-    background:$blue;
-    color: white;
+    background:$light-blue;
+    color: $blue;
 
     cursor: pointer;
     border-radius:  .5rem;
     font-size:  1.7rem;
 
     &:hover {
-        color: $pink;
+        color: $white;
         background: $blue;
     }
 }
